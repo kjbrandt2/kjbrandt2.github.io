@@ -4,7 +4,8 @@ on:
   workflow_dispatch: {}
   schedule:
     # GitHub cron runs in UTC.
-    - cron: "30 16 * * *"  # 08:30 PST (UTC-8), fixed year-round (no DST)
+    # 08:30 PST (fixed UTC-8, no DST) = 16:30 UTC
+    - cron: "30 16 * * *"
 
 permissions:
   contents: write
@@ -22,7 +23,7 @@ jobs:
       - name: Publish due posts (PST fixed, no DST)
         shell: bash
         env:
-          PST_TZ: "Etc/GMT+8" # Fixed UTC-8 (PST year-round; ignores DST)
+          PST_TZ: "Etc/GMT+8"   # Fixed UTC-8 (PST year-round; ignores DST)
         run: |
           set -euo pipefail
 
@@ -31,7 +32,7 @@ jobs:
           echo "Today (PST fixed): $TODAY"
 
           # Where you stage future posts
-          SCHEDULED_DIR="_scheduled"
+          SCHEDULED_DIR="_drafts"
           POSTS_DIR="_posts"
 
           mkdir -p "$SCHEDULED_DIR" "$POSTS_DIR"
