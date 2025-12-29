@@ -3,19 +3,29 @@ layout: home
 title: ""
 ---
 
+# Kenneth Brandt  
+**Director, GCP & GxP Quality Systems** • **Biotech & Biologics**
 
-# KENNETH BRANDT
+I build inspection-ready quality systems across clinical and manufacturing — **GCP/GMP oversight**, **vendor quality**, **CAPA effectiveness**, and **phase-appropriate QMS design**.
 
-DIRECTOR, GCP & GxP QUALITY SYSTEMS | BIOTECH & BIOLOGICS
+---
 
-I BUILD INSPECTION-READY QUALITY SYSTEMS ACROSS CLINICAL AND MANUFACTURING — GCP/GMP OVERSIGHT, VENDOR QUALITY, CAPA EFFECTIVENESS, AND PHASE-APPROPRIATE QMS DESIGN.
+## Focus Areas
+- **Inspection readiness** (FDA / EMA / MHRA)
+- **Vendor QA oversight** (CROs, CDMOs, labs)
+- **Deviations, CAPA, change control, risk management**
+- **Governance, metrics, and quality culture**
 
-## FOCUS AREAS
-- INSPECTION READINESS (FDA / EMA / MHRA)
-- VENDOR QA OVERSIGHT (CROS, CDMOS, LABS)
-- DEVIATIONS, CAPA, CHANGE CONTROL, RISK MANAGEMENT
-- GOVERNANCE, METRICS, AND QUALITY CULTURE
+---
 
-## CONTACT
-- LINKEDIN: 
-- EMAIL: CONTACT@KENNETHJBRANDT.COM
+## How I Help
+- **Rapid QMS gap assessment** (30/60/90-day plan)
+- **CAPA remediation + effectiveness** (evidence-ready)
+- **Inspection readiness support** (mock audits, storyboards, readiness packs)
+- **Vendor oversight programs** (qualification, monitoring, QTA support)
+
+---
+
+## Contact
+- **LinkedIn:** [Add your LinkedIn URL here](https://www.linkedin.com/)
+- **Email:** [contact@kennethjbrandt.com](mailto:contact@kennethjbrandt.com)
