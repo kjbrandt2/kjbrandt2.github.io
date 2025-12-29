@@ -27,5 +27,5 @@ I build inspection-ready quality systems across clinical and manufacturing — *
 ---
 
 ## Contact
-- **LinkedIn:** [https://www.linkedin.com/in/kennethjbrandt/](https://www.linkedin.com/)
+- **LinkedIn:** [linkedin.com/in/kennethjbrandt](https://www.linkedin.com/in/kennethjbrandt/)
 - **Email:** [contact@kennethjbrandt.com](mailto:contact@kennethjbrandt.com)
