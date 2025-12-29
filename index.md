@@ -3,7 +3,6 @@ layout: home
 title: ""
 ---
 
-# Kenneth Brandt  
 **Director, GCP & GxP Quality Systems** • **Biotech & Biologics**
 
 I build inspection-ready quality systems across clinical and manufacturing — **GCP/GMP oversight**, **vendor quality**, **CAPA effectiveness**, and **phase-appropriate QMS design**.
