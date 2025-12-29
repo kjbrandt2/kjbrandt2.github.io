@@ -1,3 +1,9 @@
-title: "KENNETH BRANDT"
-description: "GxP QUALITY SYSTEMS • INSPECTION READINESS • VENDOR OVERSIGHT"
+title: "Kenneth Brandt"
+description: "GxP Quality Systems • Inspection Readiness • Vendor QA Oversight"
 theme: minima
+
+minima:
+  skin: auto
+
+header_pages:
+  - index.md
