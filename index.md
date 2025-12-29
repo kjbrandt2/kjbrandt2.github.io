@@ -1,3 +1,9 @@
+---
+layout: page
+title: KENNETH BRANDT
+permalink: /
+---
+
 # KENNETH BRANDT
 
 DIRECTOR, GCP & GxP QUALITY SYSTEMS | BIOTECH & BIOLOGICS
