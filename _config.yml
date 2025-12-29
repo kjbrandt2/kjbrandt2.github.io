@@ -1,9 +1,13 @@
-title: ""
-description: ""
+title: Kenneth Brandt
+description: Director, GCP & GxP Quality Systems • Biotech & Biologics
+url: "https://kennethjbrandt.com"
+
 theme: minima
 
 minima:
-  skin: auto
-
-header_pages:
-  - index.md
+  social_links:
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/kennethjbrandt/" }
+    - { platform: github,   user_url: "https://github.com/kjbrandt2" }
+    # add more later if you want:
+    # - { platform: x, user_url: "https://x.com/yourhandle" }
+    # - { platform: youtube, user_url: "https://youtube.com/@yourchannel" }
