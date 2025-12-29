@@ -1,8 +1,8 @@
 ---
-layout: page
-title: KENNETH BRANDT
-permalink: /
+layout: home
+title: Kenneth Brandt
 ---
+
 
 # KENNETH BRANDT
 
