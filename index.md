@@ -3,25 +3,34 @@ layout: home
 title: ""
 ---
 
-**Director, GCP & GxP Quality Systems** • **Biotech & Biologics**
+# Kenneth Brandt
 
-I build inspection-ready quality systems across clinical and manufacturing — **GCP/GMP oversight**, **vendor quality**, **CAPA effectiveness**, and **phase-appropriate QMS design**.
+**Director, GCP & GxP Quality Systems** • Biotech & Biologics
+
+I help teams build **inspection-ready quality systems that actually work day-to-day** across clinical and manufacturing — with strong **vendor oversight**, **CAPA effectiveness**, and **phase-appropriate QMS design**.
 
 ---
 
-## Focus Areas
+## What I work on
 - **Inspection readiness** (FDA / EMA / MHRA)
-- **Vendor QA oversight** (CROs, CDMOs, labs)
-- **Deviations, CAPA, change control, risk management**
-- **Governance, metrics, and quality culture**
+- **GCP/GMP quality systems**: deviations, CAPA, change control, risk management, training
+- **Vendor QA oversight** (CROs, CDMOs, labs) and quality agreements / governance
+- **Metrics + operating cadence** that leadership can run and auditors can follow
 
 ---
 
-## How I Help
-- **Rapid QMS gap assessment** (30/60/90-day plan)
-- **CAPA remediation + effectiveness** (evidence-ready)
-- **Inspection readiness support** (mock audits, storyboards, readiness packs)
-- **Vendor oversight programs** (qualification, monitoring, QTA support)
+## Typical ways I help
+- **Rapid QMS assessment + 30/60/90 plan** (priorities, owners, evidence targets)
+- **CAPA remediation + effectiveness** (audit-proof, outcome-driven)
+- **Inspection readiness support** (readiness packs, mock audits, SME coaching)
+- **Vendor oversight programs** (qualification, monitoring, escalation pathways)
+
+---
+
+## Start here
+- Read the **[Blog](/blog/)** for practical notes, checklists, and examples  
+- Learn more **[About me](/about/)**  
+- What I’m focused on **[Now](/now/)**  
 
 ---
 
