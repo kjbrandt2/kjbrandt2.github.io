@@ -14,3 +14,4 @@ Practical notes on inspection readiness, quality systems, vendor oversight, and 
     </li>
   {% endfor %}
 </ul>
+Subscribe via RSS: **[feed.xml](/feed.xml)**
