@@ -16,3 +16,11 @@ header_pages:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+author: Kenneth Brandt
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
