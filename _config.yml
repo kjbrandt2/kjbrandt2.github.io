@@ -13,3 +13,6 @@ header_pages:
   - blog.md
   - about.md
   - now.md
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
