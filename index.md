@@ -37,3 +37,13 @@ I help teams build **inspection-ready quality systems that actually work day-to-
 ## Contact
 - **LinkedIn:** [linkedin.com/in/kennethjbrandt](https://www.linkedin.com/in/kennethjbrandt/)
 - **Email:** [contact@kennethjbrandt.com](mailto:contact@kennethjbrandt.com)
+
+---
+
+## Latest
+{% assign latest = site.posts.first %}
+{% if latest %}
+- **Latest post:** [{{ latest.title }}]({{ latest.url | relative_url }}) — {{ latest.date | date: "%Y-%m-%d" }}
+{% else %}
+- No posts yet — coming soon.
+{% endif %}
