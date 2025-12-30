@@ -11,3 +11,5 @@ minima:
     - { platform: github,   user_url: "https://github.com/kjbrandt2" }
 header_pages:
   - blog.md
+  - about.md
+  - now.md
