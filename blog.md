@@ -6,6 +6,8 @@ permalink: /blog/
 
 Practical notes on inspection readiness, quality systems, vendor oversight, and operational execution.
 
+Subscribe via RSS: **[feed.xml](/feed.xml)**
+
 <ul>
   {% for post in site.posts %}
     <li>
@@ -14,4 +16,3 @@ Practical notes on inspection readiness, quality systems, vendor oversight, and 
     </li>
   {% endfor %}
 </ul>
-Subscribe via RSS: **[feed.xml](/feed.xml)**
