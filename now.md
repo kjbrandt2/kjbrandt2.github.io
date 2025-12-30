@@ -6,36 +6,31 @@ permalink: /now/
 
 ## What I’m focused on right now
 
-### 1) Career focus
+### Career focus
 - Director / Sr Director roles in **GCP & GxP Quality Systems / Quality Operations**
 - Select implementation and launch roles in healthcare AI / tech (governance + operating model + execution)
 - High-leverage consulting projects where I can deliver clear outcomes quickly
 
-### 2) Writing focus (2026 themes)
-I’m building a library of practical posts that go beyond “hot takes” and into real execution.
+### Writing focus
+I’m building a practical library of posts that go beyond “hot takes” and into real execution — tools, patterns, and examples teams can actually use.
 
-**AI × QA (Red Pine themes)**  
-- Drift and monitoring
-- Validation and documentation
-- Data governance
-- Scaling oversight and audit prep
+**AI governance and quality oversight**
+- Monitoring, drift, and performance management
+- Validation approach and documentation strategy
+- Data governance and traceability
+- Scaling oversight and audit readiness
 
-**QbD core (Alto Ridge themes)**  
+**QbD and lifecycle quality**
 - Control strategy and risk-based thinking
 - DOE and knowledge management
 - CPV and data integrity
 - Tech transfer and lifecycle management
 
-**Agile in GMP (Crow Creek themes)**  
+**Operational excellence in GMP environments**
 - Flow, WIP limits, and practical boards
 - Risk-based validation and right-sized documentation
-- Training effectiveness
+- Training effectiveness and CAPA prevention
 - Leadership reporting and audit-friendly metrics
-
-### 3) Publishing cadence
-- **Red Pine + Alto Ridge:** bi-weekly (paired with deeper personal posts here)
-- **Crow Creek:** monthly
-- Posts publish at **08:30 AM PST**
 
 ---
 
