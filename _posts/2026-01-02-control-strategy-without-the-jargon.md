@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Control Strategy Without the Jargon: CQA → CPP/CMA → Control Layers That Survive an Audit"
+title: "Control Strategy Without the Jargon: Control Layers That Survive an Audit"
 date: 2026-01-02
 categories: [gxp, quality, qbd]
 tags: [QbD, Control Strategy, CQA, CPP, CMA, GMP, Data Integrity]
