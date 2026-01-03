@@ -10,7 +10,7 @@ excerpt: "A practical way to map CQAs to CPPs/CMAs, define layered controls, ass
 Control strategies get overcomplicated fast. Teams drown in jargon, giant trace matrices, and “one more spreadsheet.”
 But auditors (and operators) care about something much simpler:
 
-**Can you show—quickly and consistently what you control, who owns it, and where the evidence lives?**
+**Can you show quickly and consistently what you control, who owns it, and where the evidence lives?**
 
 This post lays out a practical approach that scales from development into commercial manufacturing.
 
