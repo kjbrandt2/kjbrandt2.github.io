@@ -1,14 +1,16 @@
 title: Kenneth Brandt
-description: Director, GCP & GxP Quality Systems • Biotech & Biologics
+description: GCP+GxP quality systems and quality operations,inspection readiness,vendor oversight,and practical execution.
 url: "https://kennethjbrandt.com"
 baseurl: ""
+lang: en-US
 
 theme: minima
 
-minima:
-  social_links:
-    - { platform: linkedin, user_url: "https://www.linkedin.com/in/kennethjbrandt/" }
-    - { platform: github,   user_url: "https://github.com/kjbrandt2" }
+social:
+  name: Kenneth Brandt
+  links:
+    - https://www.linkedin.com/in/kennethjbrandt/
+    
 header_pages:
   - blog.md
   - about.md
