@@ -5,45 +5,27 @@ title: ""
 
 # Kenneth Brandt
 
-**Director, GCP & GxP Quality Systems** • Biotech & Biologics
+I work in GCP+GxP quality systems and quality operations with 20+ years across biopharma,sterile manufacturing,biologics/CDMOs,and consulting.
 
-I help teams build **inspection-ready quality systems that actually work day-to-day** across clinical and manufacturing — with strong **vendor oversight**, **CAPA effectiveness**, and **phase-appropriate QMS design**.
-
----
-
-## What I work on
-- **Inspection readiness** (FDA / EMA / MHRA)
-- **GCP/GMP quality systems**: deviations, CAPA, change control, risk management, training
-- **Vendor QA oversight** (CROs, CDMOs, labs) and quality agreements / governance
-- **Metrics + operating cadence** that leadership can run and auditors can follow
-
----
-
-## Typical ways I help
-- **Rapid QMS assessment + 30/60/90 plan** (priorities, owners, evidence targets)
-- **CAPA remediation + effectiveness** (audit-proof, outcome-driven)
-- **Inspection readiness support** (readiness packs, mock audits, SME coaching)
-- **Vendor oversight programs** (qualification, monitoring, escalation pathways)
+I help teams build **inspection-ready quality systems that work day-to-day** across clinical and manufacturing,with strong **vendor oversight**,**CAPA effectiveness**,and **phase-appropriate QMS design**.
 
 ---
 
 ## Start here
-- Read the **[Blog](/blog/)** for practical notes, checklists, and examples  
-- Learn more **[About me](/about/)**  
-- What I’m focused on **[Now](/now/)**  
+- Read the **[Blog](/blog/)** for practical notes,checklists,and examples
+- Learn more **[About](/about/)**  
+- What I’m focused on **[Now](/now/)**
+
+---
+
+## Featured
+- [Model Drift in GxP: What It Is (and Isn’t)+A Practical Monitoring Playbook](/gxp/ai/quality/2026/01/02/model-drift-in-gxp-practical-monitoring.html)
+- [Control Strategy Without the Jargon: Control Layers That Survive an Audit](/gxp/quality/qbd/2026/01/02/control-strategy-without-the-jargon.html)
+- [Alert+Action Limits: A Starter Checklist](/gxp/ai/quality/2026/01/06/alert+action-limits-starter-checklist.html)
+- [Audit Trails+Log Retention: A Starter Checklist](/gxp/ai/quality/2026/01/06/audit-trails+log-retention-starter-checklist.html)
 
 ---
 
 ## Contact
 - **LinkedIn:** [linkedin.com/in/kennethjbrandt](https://www.linkedin.com/in/kennethjbrandt/)
 - **Email:** [contact@kennethjbrandt.com](mailto:contact@kennethjbrandt.com)
-
----
-
-## Latest
-{% assign latest = site.posts.first %}
-{% if latest %}
-- **Latest post:** [{{ latest.title }}]({{ latest.url | relative_url }}) — {{ latest.date | date: "%Y-%m-%d" }}
-{% else %}
-- No posts yet — coming soon.
-{% endif %}
