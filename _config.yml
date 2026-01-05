@@ -7,9 +7,9 @@ lang: en-US
 theme: minima
 
 social:
-  name: Kenneth Brandt
   links:
     - https://www.linkedin.com/in/kennethjbrandt/
+    - https://github.com/kjbrandt2
     
 header_pages:
   - blog.md
