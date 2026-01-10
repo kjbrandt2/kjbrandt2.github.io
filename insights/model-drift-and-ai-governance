@@ -38,7 +38,7 @@ Your input distribution changes compared to the baseline the model was trained o
 **Why it matters in life sciences:**
 
 - Trial enrichment models suddenly see a new site mix or disease severity mix  
-- Safety or signal detection models see a new pattern of spontaneous reports  
+- Safety or signal-detection models see a new pattern of spontaneous reports  
 - Commercial models see a different payer mix or channel mix than they were trained on  
 
 **Governance questions:**
@@ -100,10 +100,10 @@ The model’s actual performance on real-world tasks gets worse over time.
 Detecting drift is necessary—but not sufficient. In regulated environments, you need a **governance story**:
 
 1. **Defined Monitoring**  
-   - For each production model, define:
-     - Drift metrics to track (by type)
-     - Frequency (real-time, daily, weekly)
-     - Segments that matter (site, region, indication, line of therapy, age group, payer)
+   For each production model, define:
+   - Drift metrics to track (by type)  
+   - Frequency (real-time, daily, weekly)  
+   - Segments that matter (site, region, indication, line of therapy, age group, payer)
 
 2. **Standard Playbooks**  
    - Data drift → Check source systems, feature engineering, and upstream ETL.  
@@ -116,11 +116,12 @@ Detecting drift is necessary—but not sufficient. In regulated environments, yo
    - **Business/clinical owner** – accountable for how outputs are used in decisions  
 
 4. **Documentation and Traceability**  
-   - Log:
-     - What drift was detected (type, magnitude)  
-     - What analysis was performed  
-     - What decision was made (continue, retrain, rollback, retire)  
-   - Tie these logs to your **model lifecycle documentation** (version history, validation reports, risk assessments).
+   Log:
+   - What drift was detected (type, magnitude)  
+   - What analysis was performed  
+   - What decision was made (continue, retrain, rollback, retire)  
+
+   Tie these logs to your **model lifecycle documentation** (version history, validation reports, risk assessments).
 
 ---
 
@@ -145,7 +146,7 @@ We help life sciences and healthcare organizations:
 
 - Design model governance frameworks that satisfy **regulatory expectations and internal risk appetite**  
 - Build pragmatic **drift monitoring and playbooks** that teams can actually run  
-- Connect model behavior to **clinical, operational, and quality outcomes** not just abstract metrics  
+- Connect model behavior to **clinical, operational, and quality outcomes**, not just abstract metrics  
 - Translate AI/ML jargon into **governance language** your QA, compliance, and leadership teams can work with
 
 If you’re deploying or scaling AI in a regulated context and want drift management that’s more than a dashboard, Red Pine can help you turn model governance into a repeatable, inspection-ready capability.
