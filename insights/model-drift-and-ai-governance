@@ -6,6 +6,10 @@ permalink: /insights/model-drift-and-ai-governance/
 
 > This article is adapted from a Red Pine Group social post on model drift and AI governance.
 
+### Who this is for
+
+This note is for quality, clinical, data science, and operations leaders who are being asked to “own” AI-enabled tools in regulated environments—and need drift management that fits into real-world GxP and governance, not just MLOps jargon.
+
 ## Why Drift Matters in Regulated AI
 
 In [life sciences](/about/), “the model is drifting” isn’t just an MLOps issue—it’s a **governance** issue.
@@ -149,6 +153,7 @@ Effective AI governance in life sciences isn’t about building the most complex
 - Linking model behavior to **real-world outcomes**: patients, products, and decisions  
 
 If your teams can explain what kind of drift they’re seeing, what it means, and what they do next, you’re already ahead of most organizations—and far closer to something that will stand up to internal and external scrutiny.
+
 ---
 
 If you’re working on control strategies or inspection-readiness for biologics or complex pharma operations and want a second set of eyes, you can [get in touch](/contact/) or learn more about how I work on the [Services](/services/) page.
