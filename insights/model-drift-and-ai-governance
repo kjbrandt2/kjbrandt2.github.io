@@ -14,7 +14,7 @@ If you’re using AI for anything that touches patient care, safety signals, tri
 
 Lumping all drift into one bucket (“model performance is getting worse”) is how teams end up with noisy alerts, unclear accountability, and—worst case—unnoticed impact on patients or product quality.
 
-At Red Pine Group, we break drift into three practical categories:
+In my work, I break drift into three practical categories:
 
 - **Data drift** – the *inputs* change  
 - **Concept drift** – the *meaning* changes  
@@ -31,7 +31,7 @@ Each type of drift has different root causes, different playbooks, and different
 **What it is:**  
 Your input distribution changes compared to the baseline the model was trained or validated on.
 
-- Feature ranges shift (e.g., age, weight, lab values, claim frequency)
+- Feature ranges shift (age, weight, lab values, claim frequency)
 - Mix of populations changes (new sites, new payers, new countries)
 - Schema or coding changes (new ICD codes, new EHR fields, updated devices)
 
@@ -62,7 +62,7 @@ Examples:
 
 **Why it matters:**
 
-- Your model is still “well-calibrated” on old labels, but those labels no longer reflect what good decisions look like now.
+- A model can stay “well-calibrated” on old labels while those labels no longer reflect what good decisions look like now.
 - Concept drift is subtle: dashboards can look fine until you realize the **world changed under the model**.
 
 **Governance questions:**
@@ -102,12 +102,12 @@ Detecting drift is necessary—but not sufficient. In regulated environments, yo
 1. **Defined Monitoring**  
    For each production model, define:
    - Drift metrics to track (by type)  
-   - Frequency (real-time, daily, weekly)  
+   - Monitoring frequency (real-time, daily, weekly)  
    - Segments that matter (site, region, indication, line of therapy, age group, payer)
 
 2. **Standard Playbooks**  
    - Data drift → Check source systems, feature engineering, and upstream ETL.  
-   - Concept drift → Convene medical / scientific stakeholders; reassess assumptions, labels, or policy.  
+   - Concept drift → Convene medical/scientific stakeholders; reassess assumptions, labels, or policy.  
    - Performance drift → Validate data and assumptions, then decide on retraining, recalibration, or rollback.
 
 3. **Clear Ownership**  
@@ -127,7 +127,7 @@ Detecting drift is necessary—but not sufficient. In regulated environments, yo
 
 ## A Practical Starter Checklist
 
-For teams deploying AI in life sciences, we recommend starting with a **minimal, pragmatic governance layer**:
+For teams deploying AI in life sciences, a **minimal, pragmatic governance layer** might look like:
 
 - [ ] For each model, **label** primary drift risks: data, concept, performance  
 - [ ] Define **baseline distributions** and performance metrics at launch  
@@ -138,15 +138,12 @@ For teams deploying AI in life sciences, we recommend starting with a **minimal,
 
 ---
 
-## How Red Pine Group Helps
+## Putting It Into Practice
 
-Red Pine Group sits at the intersection of **GxP thinking** and **practical AI**.
+Effective AI governance in life sciences isn’t about building the most complex monitoring stack. It’s about:
 
-We help life sciences and healthcare organizations:
+- Using clear language that QA, clinical, and operations teams can work with  
+- Making ownership and escalation paths unambiguous  
+- Linking model behavior to **real-world outcomes**: patients, products, and decisions  
 
-- Design model governance frameworks that satisfy **regulatory expectations and internal risk appetite**  
-- Build pragmatic **drift monitoring and playbooks** that teams can actually run  
-- Connect model behavior to **clinical, operational, and quality outcomes**, not just abstract metrics  
-- Translate AI/ML jargon into **governance language** your QA, compliance, and leadership teams can work with
-
-If you’re deploying or scaling AI in a regulated context and want drift management that’s more than a dashboard, Red Pine can help you turn model governance into a repeatable, inspection-ready capability.
+If your teams can explain what kind of drift they’re seeing, what it means, and what they do next, you’re already ahead of most organizations—and far closer to something that will stand up to internal and external scrutiny.
