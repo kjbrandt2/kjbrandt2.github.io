@@ -8,9 +8,11 @@ permalink: /insights/model-drift-and-ai-governance/
 
 ## Why Drift Matters in Regulated AI
 
-In life sciences, “the model is drifting” isn’t just an MLOps issue—it’s a **governance** issue.
+In [life sciences](/about/), “the model is drifting” isn’t just an MLOps issue—it’s a **governance** issue.
 
 If you’re using AI for anything that touches patient care, safety signals, trial operations, or manufacturing decisions, you need to know **what kind of drift is happening, how you detect it, and what you do next**.
+
+If you’re deploying AI in GxP or high-stakes clinical operations, you need drift management that fits into your broader quality and [AI governance](/services/) framework, not just MLOps dashboards.
 
 Lumping all drift into one bucket (“model performance is getting worse”) is how teams end up with noisy alerts, unclear accountability, and—worst case—unnoticed impact on patients or product quality.
 
