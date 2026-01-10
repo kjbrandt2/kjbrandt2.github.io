@@ -27,4 +27,4 @@ For any critical risk or process step:
 - **Assign owners and review cadence** so each layer has someone clearly accountable.  
 - **Keep evidence easy to retrieve** (batches, logs, training records, deviations, CAPAs) for when questions come up or inspectors arrive.
 
-A robust control strategy isn’t just a slide—it’s a living system that makes day-to-day decisions easier, keeps you inspection-ready, and gives you a clear story when something goes wrong.
+A robust control strategy isn’t just a slide, it’s a living system that makes day-to-day decisions easier, keeps you inspection-ready, and gives you a clear story when something goes wrong.
