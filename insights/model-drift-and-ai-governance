@@ -1,0 +1,151 @@
+---
+layout: page
+title: "Not All Drift Is Created Equal: Practical AI & Model Governance"
+permalink: /insights/model-drift-and-ai-governance/
+---
+
+> This article is adapted from a Red Pine Group social post on model drift and AI governance.
+
+## Why Drift Matters in Regulated AI
+
+In life sciences, “the model is drifting” isn’t just an MLOps issue—it’s a **governance** issue.
+
+If you’re using AI for anything that touches patient care, safety signals, trial operations, or manufacturing decisions, you need to know **what kind of drift is happening, how you detect it, and what you do next**.
+
+Lumping all drift into one bucket (“model performance is getting worse”) is how teams end up with noisy alerts, unclear accountability, and—worst case—unnoticed impact on patients or product quality.
+
+At Red Pine Group, we break drift into three practical categories:
+
+- **Data drift** – the *inputs* change  
+- **Concept drift** – the *meaning* changes  
+- **Performance drift** – the *outcomes* degrade  
+
+Each type of drift has different root causes, different playbooks, and different owners.
+
+---
+
+## The Three Types of Drift
+
+### 1. Data Drift: When the Inputs Shift
+
+**What it is:**  
+Your input distribution changes compared to the baseline the model was trained or validated on.
+
+- Feature ranges shift (e.g., age, weight, lab values, claim frequency)
+- Mix of populations changes (new sites, new payers, new countries)
+- Schema or coding changes (new ICD codes, new EHR fields, updated devices)
+
+**Why it matters in life sciences:**
+
+- Trial enrichment models suddenly see a new site mix or disease severity mix  
+- Safety or signal detection models see a new pattern of spontaneous reports  
+- Commercial models see a different payer mix or channel mix than they were trained on  
+
+**Governance questions:**
+
+- Do we have **baseline distributions** and versioned data profiles?  
+- Who owns the **“go/no-go” call** when a feature or population shifts?  
+- Is there a **documented process** when a key data source changes (EHR upgrade, coding change, vendor swap)?
+
+---
+
+### 2. Concept Drift: When the Meaning Changes
+
+**What it is:**  
+The relationship between inputs and labels changes—even if the inputs look “stable” on paper.
+
+Examples:
+
+- Standard of care changes → what was “second-line” therapy becomes first-line  
+- New clinical guidelines change how diagnoses or response are defined  
+- A new product launch changes competitive context and prescriber behavior  
+
+**Why it matters:**
+
+- Your model is still “well-calibrated” on old labels, but those labels no longer reflect what good decisions look like now.
+- Concept drift is subtle: dashboards can look fine until you realize the **world changed under the model**.
+
+**Governance questions:**
+
+- Who is responsible for watching **policy, label, and guideline changes** that might invalidate assumptions?  
+- Do we periodically **revisit labeling definitions** with medical, safety, and biostatistics?  
+- Are there **formal gates** where changes in standard of care or label trigger model review?
+
+---
+
+### 3. Performance Drift: When Outcomes Degrade
+
+**What it is:**  
+The model’s actual performance on real-world tasks gets worse over time.
+
+- Error rates climb (MAE, MAPE, RMSE, etc.)  
+- Classification metrics slide (AUC/ROC, precision/recall, F1)  
+- Business KPIs degrade (conversion, time to diagnosis, right-first-time decisions)
+
+**Why it matters:**
+
+- This is the drift most teams *see* first—but by the time it’s obvious, patients or operations may already be feeling it.
+- Performance drift is usually a symptom of **data drift, concept drift, or both**.
+
+**Governance questions:**
+
+- Are performance metrics tied to **clear guardrails and escalation paths**?  
+- Do we link technical metrics (AUC, F1) to **business and clinical outcomes**?  
+- Is there a **pre-approved rollback/fallback** approach if performance crosses a threshold?
+
+---
+
+## Turning Drift Detection into Governance
+
+Detecting drift is necessary—but not sufficient. In regulated environments, you need a **governance story**:
+
+1. **Defined Monitoring**  
+   - For each production model, define:
+     - Drift metrics to track (by type)
+     - Frequency (real-time, daily, weekly)
+     - Segments that matter (site, region, indication, line of therapy, age group, payer)
+
+2. **Standard Playbooks**  
+   - Data drift → Check source systems, feature engineering, and upstream ETL.  
+   - Concept drift → Convene medical / scientific stakeholders; reassess assumptions, labels, or policy.  
+   - Performance drift → Validate data and assumptions, then decide on retraining, recalibration, or rollback.
+
+3. **Clear Ownership**  
+   - **Model owner** – accountable for performance and documentation  
+   - **Data owner** – accountable for data lineage and changes  
+   - **Business/clinical owner** – accountable for how outputs are used in decisions  
+
+4. **Documentation and Traceability**  
+   - Log:
+     - What drift was detected (type, magnitude)  
+     - What analysis was performed  
+     - What decision was made (continue, retrain, rollback, retire)  
+   - Tie these logs to your **model lifecycle documentation** (version history, validation reports, risk assessments).
+
+---
+
+## A Practical Starter Checklist
+
+For teams deploying AI in life sciences, we recommend starting with a **minimal, pragmatic governance layer**:
+
+- [ ] For each model, **label** primary drift risks: data, concept, performance  
+- [ ] Define **baseline distributions** and performance metrics at launch  
+- [ ] Implement **basic monitoring** for inputs and outcomes, including key segments  
+- [ ] Create **short, action-oriented playbooks** for each drift type  
+- [ ] Assign **named owners** for model, data, and business/clinical decision use  
+- [ ] Keep a **simple drift log**: detected → assessed → actioned → outcome  
+
+---
+
+## How Red Pine Group Helps
+
+Red Pine Group sits at the intersection of **GxP thinking** and **practical AI**.
+
+We help life sciences and healthcare organizations:
+
+- Design model governance frameworks that satisfy **regulatory expectations and internal risk appetite**  
+- Build pragmatic **drift monitoring and playbooks** that teams can actually run  
+- Connect model behavior to **clinical, operational, and quality outcomes** not just abstract metrics  
+- Translate AI/ML jargon into **governance language** your QA, compliance, and leadership teams can work with
+
+If you’re deploying or scaling AI in a regulated context and want drift management that’s more than a dashboard, Red Pine can help you turn model governance into a repeatable, inspection-ready capability.
