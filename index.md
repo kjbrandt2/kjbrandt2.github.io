@@ -5,9 +5,9 @@ title: ""
 
 # Kenneth Brandt
 
-I work in GCP+GxP quality systems and quality operations with 20+ years across biopharma,sterile manufacturing,biologics/CDMOs,and consulting.
+I work in GCP+GxP quality systems and quality operations with 20+ years across biopharma, sterile manufacturing, biologics/CDMOs, and consulting.
 
-I help teams build **inspection-ready quality systems that work day-to-day** across clinical and manufacturing,with strong **vendor oversight**,**CAPA effectiveness**,and **phase-appropriate QMS design**.
+I help teams build **inspection-ready quality systems that work day-to-day** across clinical and manufacturing, with strong **vendor oversight**, **CAPA effectiveness**, and **phase-appropriate QMS design**.
 
 ---
 
@@ -19,10 +19,12 @@ I help teams build **inspection-ready quality systems that work day-to-day** acr
 ---
 
 ## Featured
-- [Model Drift in GxP: What It Is (and Isn’t)+A Practical Monitoring Playbook](/gxp/ai/quality/2026/01/02/model-drift-in-gxp-practical-monitoring.html)
-- [Control Strategy Without the Jargon: Control Layers That Survive an Audit](/gxp/quality/qbd/2026/01/02/control-strategy-without-the-jargon.html)
-- [Alert+Action Limits: A Starter Checklist](/gxp/ai/quality/2026/01/06/alert+action-limits-starter-checklist.html)
-- [Audit Trails+Log Retention: A Starter Checklist](/gxp/ai/quality/2026/01/06/audit-trails+log-retention-starter-checklist.html)
+- [Inspection Readiness War Room: The Evidence Map That Ends the Scramble](/insights/inspection-readiness-war-room/)
+- [Audit Trails + Log Retention for AI in GxP: A Practical Starter Checklist](/insights/audit-trails-log-retention-ai-gxp/)
+- [Model Drift in GxP: What It Is (and Isn’t) + A Practical Monitoring Playbook](/2026/01/02/model-drift-in-gxp-practical-monitoring/)
+- [Control Strategy Without the Jargon: Control Layers That Survive an Audit](/2026/01/02/control-strategy-without-the-jargon/)
+- [Alert+Action Limits: A Starter Checklist](/2026/01/06/alert-action-limits-starter-checklist/)
+- [Audit Trails+Log Retention: A Starter Checklist](/2026/01/06/audit-trails-log-retention-starter-checklist/)
 
 ---
 
