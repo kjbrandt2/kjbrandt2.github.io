@@ -3,73 +3,93 @@ layout: post
 title: "IoT Botnets, DDoS, and the Device Governance Problem"
 ---
 
-The recent federal disruption of four large IoT botnets is a reminder that DDoS is often a device-governance problem before it becomes a network problem.
+The recent takedown of four large IoT botnets is a useful reminder of an old truth: a machine does not care whose side it is on. It will obey whoever holds the leash.
 
-The U.S. Justice Department said authorities in the United States, Canada, and Germany disrupted infrastructure used by four botnets named Aisuru, Kimwolf, JackSkid, and Mossad. According to the government, those botnets compromised more than three million IoT devices and were used in a series of major DDoS attacks, including attacks that reached roughly 30 terabits per second.
+Authorities in the United States, Canada, and Germany disrupted infrastructure tied to four botnets called Aisuru, Kimwolf, JackSkid, and Mossad. The official story says those botnets compromised more than three million connected devices and were used to drive DDoS attacks of extraordinary scale.
 
-That headline matters, but the more useful takeaway is operational.
+That sounds like a cyber story. It is not. Not really.
 
-These botnets were not built on exotic infrastructure. They were built on ordinary connected devices such as routers, cameras, and other internet-facing systems that were easy to compromise, easy to scale, and easy to reuse. Krebs also notes that Aisuru emerged in late 2024, Kimwolf expanded rapidly in 2025, and researchers publicly documented Kimwolf’s propagation methods in January 2026. 
+It is a governance story.
+
+No sorcery was required. No death ray from Mars. The machinery was already here, plugged in, trusted, and humming along in offices, homes, field sites, and closets no one has opened in months. Routers. Cameras. Boxes with blinking lights. Cheap, connected, and forgotten. The attackers did not invent an army. They conscripted one.
+
+That is the part worth your attention.
 
 ## What matters here
 
-A few questions are more useful than the headline count of infected devices.
+The interesting question is not how many devices were taken over. The interesting question is how many devices in your own environment could be.
 
-### 1. Do you know which connected devices can become someone else’s infrastructure?
+### 1. Do you know which devices can become someone else’s infrastructure?
 
-The botnet story is not just about attackers. It is about unmanaged or poorly governed devices becoming part of an attack platform.
+Most organizations think in categories that make them comfortable. Servers matter. Laptops matter. The little appliance in the corner does not matter until it does.
 
-If a device can be reached, poorly maintained, or exposed through weak controls, it can become part of someone else’s DDoS capacity. That is as much an asset-governance issue as it is a security issue. 
+But if a device is connected, reachable, weakly managed, and rarely patched, then it is not a harmless convenience. It is a latent liability. It may sit quietly for months, doing its small assigned duty, until someone else decides it has a more interesting purpose.
+
+A machine with no owner is still owned. Just not by you.
 
 ### 2. Are IoT and edge devices governed like real production assets?
 
-A router, camera, Android TV box, or field device may not feel as important as a server. In practice, large botnets keep proving the opposite.
+There is a common superstition in operations: if something is small, cheap, or boring, it must also be low-risk. That is nonsense.
 
-If a device is connected, routable, remotely administered, or rarely patched, it needs ownership, lifecycle control, and a clear place in the asset inventory. Otherwise the organization is depending on luck. 
+A camera does not become safe because it is boring. A router does not become harmless because nobody talks about it in steering committee meetings. An Android box does not become trustworthy because Finance never heard of it.
 
-### 3. Can you tell when "small devices" start behaving like attack infrastructure?
+If the device is connected, it needs the same old unglamorous disciplines that keep everything else from becoming a fire: ownership, lifecycle control, patching, visibility, retirement. If those are absent, then you are not running a system. You are running a wish.
 
-The DOJ said the four botnets launched hundreds of thousands of DDoS attacks and that some victims suffered tens of thousands of dollars in losses and remediation costs. That means the operational signal was not subtle. The question is whether affected environments could see the signal in time.
+Luck is not a control.
 
-For most teams, this comes down to:
-- visibility into internet-exposed devices
-- baseline behavior for outbound traffic
-- alerting for unusual connections, scanning, or command patterns
-- clear ownership when a non-traditional device needs investigation
+### 3. Can you tell when “small devices” start behaving like attack infrastructure?
+
+The official account says these botnets launched hundreds of thousands of attacks and caused real financial harm. That means the signal was there. The question is whether anyone who was responsible could see it in time, and whether they knew what they were looking at when they did.
+
+For most teams, that comes down to a few unromantic questions:
+
+- Can you see internet-exposed devices clearly?
+- Do you know what normal outbound behavior looks like?
+- Will anyone notice when one of these things starts speaking in a foreign tongue at machine speed?
+- Is there a named human being who owns the problem when that happens?
+
+Most failures of this kind are not failures of intelligence. They are failures of housekeeping.
 
 ### 4. Is DDoS resilience treated as a business-continuity issue?
 
-The common mistake is to treat DDoS as a network team problem only.
+Another common mistake is to hand DDoS off to the network team and call it a day, as though a flood of malicious traffic were only a technical inconvenience.
 
-At scale, DDoS is also a continuity question:
-- which services must stay reachable
-- what dependencies can fail first
-- what fallback paths exist
-- what customer, vendor, and internal communications happen during disruption
+It is not. It is a continuity problem.
 
-The larger the botnets get, the less useful it is to think about this as a purely technical nuisance. It becomes a resilience and prioritization problem.
+When systems are overwhelmed, the real questions are not abstract:
+
+- Which services must remain reachable?
+- Which dependencies break first?
+- What can be degraded safely?
+- Who talks to customers, partners, and internal teams when normal channels are under strain?
+
+At sufficient scale, DDoS stops being a nuisance and starts becoming a test of whether leadership understands its own business.
 
 ## The practical takeaway
 
-The recent botnet disruption is good news, but it does not solve the underlying issue.
+The recent disruption of these botnets is good news. It is also temporary news.
 
-The underlying issue is that insecure and weakly governed connected devices still provide cheap scale for attack operators. Researchers have been pointing to the same pattern for months: insecure IoT and consumer-connected devices are still an abundant supply chain for large DDoS activity.
+The underlying condition remains the same: the world is full of insecure, weakly governed connected devices, and adversaries have shown again and again that they are happy to put them to work.
 
-A simple internal question is this:
+So the useful question is not whether the government disrupted this batch.
 
-**Which connected devices in our environment are treated as operationally important enough to inventory, patch, monitor, and retire deliberately, and which ones are still effectively unmanaged?**
+The useful question is this:
 
-If the answer is unclear, the risk is not theoretical.
+**Which connected devices in your environment are important enough to inventory, patch, monitor, and retire deliberately, and which ones are still running on neglect and optimism?**
+
+If the answer is vague, then the danger is not hypothetical. It is merely waiting its turn.
 
 ## A few useful checks
 
-- Identify all internet-facing and remotely manageable IoT or edge devices
-- Confirm ownership and patch responsibility for each device class
-- Review where default credentials, weak remote access, or unmanaged firmware still exist
-- Baseline outbound behavior for non-traditional devices and alert on unusual activity
-- Test whether DDoS response plans are tied to actual business priorities
-- Review whether third-party or field-deployed devices are governed to the same standard as core internal systems
+- Identify every internet-facing and remotely manageable IoT or edge device
+- Assign a real owner to each device class
+- Confirm patch responsibility and firmware hygiene
+- Remove default credentials and weak remote access paths
+- Baseline outbound behavior for non-traditional devices
+- Alert on unusual traffic, scanning, or command patterns
+- Tie DDoS response to business priorities, not just technical procedures
+- Hold third-party and field-deployed devices to the same standards as internal ones
 
-The broader point is simple:
+The larger point is simple enough for a child, which is one reason adults tend to miss it:
 
 **A device fleet becomes a security problem long before it becomes a headline.**
