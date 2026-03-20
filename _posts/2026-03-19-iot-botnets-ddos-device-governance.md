@@ -5,11 +5,11 @@ title: "IoT Botnets, DDoS, and the Device Governance Problem"
 
 The recent federal disruption of four large IoT botnets is a reminder that DDoS is often a device-governance problem before it becomes a network problem.
 
-The U.S. Justice Department said authorities in the United States, Canada, and Germany disrupted infrastructure used by four botnets named Aisuru, Kimwolf, JackSkid, and Mossad. According to the government, those botnets compromised more than three million IoT devices and were used in a series of major DDoS attacks, including attacks that reached roughly 30 terabits per second. :contentReference[oaicite:0]{index=0}
+The U.S. Justice Department said authorities in the United States, Canada, and Germany disrupted infrastructure used by four botnets named Aisuru, Kimwolf, JackSkid, and Mossad. According to the government, those botnets compromised more than three million IoT devices and were used in a series of major DDoS attacks, including attacks that reached roughly 30 terabits per second.
 
 That headline matters, but the more useful takeaway is operational.
 
-These botnets were not built on exotic infrastructure. They were built on ordinary connected devices such as routers, cameras, and other internet-facing systems that were easy to compromise, easy to scale, and easy to reuse. Krebs also notes that Aisuru emerged in late 2024, Kimwolf expanded rapidly in 2025, and researchers publicly documented Kimwolf’s propagation methods in January 2026. :contentReference[oaicite:1]{index=1}
+These botnets were not built on exotic infrastructure. They were built on ordinary connected devices such as routers, cameras, and other internet-facing systems that were easy to compromise, easy to scale, and easy to reuse. Krebs also notes that Aisuru emerged in late 2024, Kimwolf expanded rapidly in 2025, and researchers publicly documented Kimwolf’s propagation methods in January 2026. 
 
 ## What matters here
 
@@ -19,17 +19,17 @@ A few questions are more useful than the headline count of infected devices.
 
 The botnet story is not just about attackers. It is about unmanaged or poorly governed devices becoming part of an attack platform.
 
-If a device can be reached, poorly maintained, or exposed through weak controls, it can become part of someone else’s DDoS capacity. That is as much an asset-governance issue as it is a security issue. :contentReference[oaicite:2]{index=2}
+If a device can be reached, poorly maintained, or exposed through weak controls, it can become part of someone else’s DDoS capacity. That is as much an asset-governance issue as it is a security issue. 
 
 ### 2. Are IoT and edge devices governed like real production assets?
 
 A router, camera, Android TV box, or field device may not feel as important as a server. In practice, large botnets keep proving the opposite.
 
-If a device is connected, routable, remotely administered, or rarely patched, it needs ownership, lifecycle control, and a clear place in the asset inventory. Otherwise the organization is depending on luck. :contentReference[oaicite:3]{index=3}
+If a device is connected, routable, remotely administered, or rarely patched, it needs ownership, lifecycle control, and a clear place in the asset inventory. Otherwise the organization is depending on luck. 
 
 ### 3. Can you tell when "small devices" start behaving like attack infrastructure?
 
-The DOJ said the four botnets launched hundreds of thousands of DDoS attacks and that some victims suffered tens of thousands of dollars in losses and remediation costs. That means the operational signal was not subtle. The question is whether affected environments could see the signal in time. :contentReference[oaicite:4]{index=4}
+The DOJ said the four botnets launched hundreds of thousands of DDoS attacks and that some victims suffered tens of thousands of dollars in losses and remediation costs. That means the operational signal was not subtle. The question is whether affected environments could see the signal in time.
 
 For most teams, this comes down to:
 - visibility into internet-exposed devices
@@ -47,13 +47,13 @@ At scale, DDoS is also a continuity question:
 - what fallback paths exist
 - what customer, vendor, and internal communications happen during disruption
 
-The larger the botnets get, the less useful it is to think about this as a purely technical nuisance. It becomes a resilience and prioritization problem. :contentReference[oaicite:5]{index=5}
+The larger the botnets get, the less useful it is to think about this as a purely technical nuisance. It becomes a resilience and prioritization problem.
 
 ## The practical takeaway
 
 The recent botnet disruption is good news, but it does not solve the underlying issue.
 
-The underlying issue is that insecure and weakly governed connected devices still provide cheap scale for attack operators. Researchers have been pointing to the same pattern for months: insecure IoT and consumer-connected devices are still an abundant supply chain for large DDoS activity. :contentReference[oaicite:6]{index=6}
+The underlying issue is that insecure and weakly governed connected devices still provide cheap scale for attack operators. Researchers have been pointing to the same pattern for months: insecure IoT and consumer-connected devices are still an abundant supply chain for large DDoS activity.
 
 A simple internal question is this:
 
