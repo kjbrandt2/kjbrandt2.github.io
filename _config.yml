@@ -1,5 +1,5 @@
 title: Kenneth Brandt
-description: GCP+GxP quality systems and quality operations,inspection readiness,vendor oversight,and practical execution.
+description: Building systems people can actually run across quality, governance, technology, and execution.
 url: "https://kennethjbrandt.com"
 baseurl: ""
 lang: en-US
@@ -10,14 +10,16 @@ social:
   links:
     - https://www.linkedin.com/in/kennethjbrandt/
     - https://github.com/kjbrandt2
-    
+
 header_pages:
   - blog.md
   - about.md
   - now.md
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
 author: Kenneth Brandt
 
 defaults:
