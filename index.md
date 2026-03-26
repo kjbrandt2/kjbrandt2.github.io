@@ -3,11 +3,9 @@ layout: home
 title: Kenneth Brandt
 ---
 
-# Kenneth Brandt
-
 I write about how organizations build systems that people can actually run.
 
-My work sits at the intersection of **quality systems, governance, technology, and execution**. Drawing on experience across GCP/GxP quality operations, information systems, business training, and military service, I focus on how organizations translate intent into clear action, real accountability, and dependable execution when the stakes are high.
+My work sits at the intersection of **quality systems, governance, technology, and execution**. Drawing on experience across GCP/GxP quality operations, information systems, business education, and military service, I focus on how organizations translate intent into clear action, real accountability, and dependable execution when the stakes are high.
 
 ## Start here
 
@@ -18,10 +16,10 @@ My work sits at the intersection of **quality systems, governance, technology, a
 ## What you’ll find here
 
 - GxP quality systems, inspection readiness, and vendor oversight
-- cybersecurity, device governance, and operational resilience
+- Cybersecurity, device governance, and operational resilience
 - AI governance, data quality, and monitoring design
-- agile operating models, execution, and leadership under pressure
-- case studies where people, systems, and consequences intersect
+- Agile operating models, execution, and leadership under pressure
+- Case studies where people, systems, and consequences intersect
 
 ## Featured
 
